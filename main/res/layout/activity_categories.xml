@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_tag">
+
+    <Button
+        android:id="@+id/user.button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="92dp"
+        android:layout_height="84dp"
+        android:onClick="buttonUserClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01999998" />
+
+    <Button
+        android:id="@+id/exit.button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="64dp"
+        android:layout_height="61dp"
+        android:onClick="buttonExitClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <Button
+        android:id="@+id/entertain.button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="178dp"
+        android:layout_height="141dp"
+        android:onClick="buttonEntertainClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <Button
+        android:id="@+id/politics.button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="178dp"
+        android:layout_height="141dp"
+        android:onClick="buttonPoliticsClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <Button
+        android:id="@+id/sports.button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="177dp"
+        android:layout_height="154dp"
+        android:onClick="buttonSportsClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445" />
+
+    <Button
+        android:id="@+id/health.button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="178dp"
+        android:layout_height="141dp"
+        android:onClick="buttonHealthClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <Button
+        android:id="@+id/tech.button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="178dp"
+        android:layout_height="141dp"
+        android:onClick="buttonTechClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <Button
+        android:id="@+id/style.button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="177dp"
+        android:layout_height="147dp"
+        android:onClick="buttonSyleClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <Button
+        android:id="@+id/business.button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="176dp"
+        android:layout_height="146dp"
+        android:onClick="buttonBusinessClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <Button
+        android:id="@+id/world.button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="179dp"
+        android:layout_height="158dp"
+        android:onClick="buttonWorldClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
